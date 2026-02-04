@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Stopping the DE, please wait."
+sudo systemctl stop sddm.service
