@@ -1,4 +1,3 @@
-0 make default plasma theme be dark - and maybe disable first setup for plasma
 0 add a program to start on plasma load to help with configs - and maybe a install program made in C/C++/C# or Python, using Qt as a interface
-0 replace konqueror/falkon with firefox in the dock
+0 replace konqueror/falkon with firefox in the dock/taskbar
 0 setup a script for auto init of bash and other

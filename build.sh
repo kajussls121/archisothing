@@ -13,5 +13,8 @@ sudo mkarchiso $ARGS
 
 
 if [ -d "$work_dir" ]; then
-    sudo rm -rf "$work_dir"
+    read -p "Do you want to remove the work directory? (y/n): " remove_work_dir
+    if [[ "$remove_work_dir" =~ ^[Yy]$ ]]; then
+        sudo rm -rf "$work_dir"
+    fi
 fi
