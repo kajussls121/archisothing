@@ -1,0 +1,75 @@
+{
+    "$fdo_created": "1770247658",
+    "$fdo_modified": "1770753392",
+    "Chromium Keys/Chromium Safe Storage": {
+        "$fdo_created": "1770250935",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1770250935",
+        "attributes": {
+            "server": "Chromium Keys",
+            "type": "plaintext",
+            "user": "Chromium Safe Storage",
+            "xdg:schema": "org.qt.keychain"
+        }
+    },
+    "Network Management/{10f8a8c7-0a5f-4dd4-8ab4-2c7cb4873aef};802-11-wireless-security": {
+        "$fdo_created": "1770280730",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1770280730",
+        "attributes": {
+            "server": "Network Management",
+            "type": "map",
+            "user": "{10f8a8c7-0a5f-4dd4-8ab4-2c7cb4873aef};802-11-wireless-security",
+            "xdg:schema": "org.qt.keychain"
+        }
+    },
+    "Network Management/{40de075f-2c7d-4e0a-bb2c-2c37bb8c730f};802-11-wireless-security": {
+        "$fdo_created": "1770753392",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1770753392",
+        "attributes": {
+            "server": "Network Management",
+            "type": "map",
+            "user": "{40de075f-2c7d-4e0a-bb2c-2c37bb8c730f};802-11-wireless-security",
+            "xdg:schema": "org.qt.keychain"
+        }
+    },
+    "Passwords/smb-192.168.0.5:-1": {
+        "$fdo_created": "1770248045",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1770248045",
+        "attributes": {
+            "server": "Passwords",
+            "type": "map",
+            "user": "smb-192.168.0.5:-1",
+            "xdg:schema": "org.qt.keychain"
+        }
+    },
+    "Secret Service/Firefox Encrypted Storage": {
+        "$fdo_created": "1770250011",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1770250011",
+        "attributes": {
+            "string": "Firefox Encrypted Storage",
+            "xdg:schema": "mozilla.firefox"
+        }
+    },
+    "Secret Service/Password for '' on 'gh:github.com'": {
+        "$fdo_created": "1770680722",
+        "$fdo_mime_type": "text/plain; charset=utf8",
+        "$fdo_modified": "1770680722",
+        "attributes": {
+            "service": "gh:github.com",
+            "username": ""
+        }
+    },
+    "Secret Service/Password for 'kajussls121' on 'gh:github.com'": {
+        "$fdo_created": "1770680722",
+        "$fdo_mime_type": "text/plain; charset=utf8",
+        "$fdo_modified": "1770680722",
+        "attributes": {
+            "service": "gh:github.com",
+            "username": "kajussls121"
+        }
+    }
+}
