@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "Starting the DE, please wait."
-sudo systemctl start sddm.service

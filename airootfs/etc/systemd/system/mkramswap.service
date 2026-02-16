@@ -1,0 +1,13 @@
+[Unit]
+Description=Configure ZRAM Swap
+DefaultDependencies=no
+Before=swap.target
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/create-zram.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=swap.target

@@ -1,3 +1,27 @@
-0 add a program to start on plasma load to help with configs - and maybe a install program made in C/C++/C# or Python, using Qt as a interface
+0 add a program to start on plasma load to help with configs - and maybe a install program made in C/C++/C# or Python, using Qt as a interface:
+    two or three stage script: normal > chroot > etc (maybe)
+    have aur helpers get installed (paru and yay, yay as a backup incase paru breaks)
+    have a selection of browsers and DEs to be installed (de list: plasma, (maybe plasma mobile, probably not), gnome, etc)(browser list: edge (if available), firefox, brave, chrome)
+    install gparted (pacman package name), gnome-disk-utility (pacman package name) and mission-center (pacman package name)
+    more stuff to add
+
+    Stage 1 (no chroot, in iso):
+        use gparted as a suitable partition editor, and maybe gnome disks
+        Stages in Stage 1:
+            Select Disk
+            Partition Scheme: Automatic (recommended), Manual (launch cfdisk)
+            Filesystem: ext4 or btrfs
+            Boot mode detection (UEFI vs BIOS auto)
+            Hostname
+            User
+            Root password
+            DE selection
+            Browser selection
+            Extras
+            Confirm
+            Check certain stuff, like if to install intel-ucode or amd-ucode
+            Install (live log)
+
 0 replace konqueror/falkon with firefox in the dock/taskbar
 0 setup a script for auto init of bash and other
+0 Get a grub theme for this

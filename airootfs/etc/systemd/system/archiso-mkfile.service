@@ -1,0 +1,9 @@
+[Unit]
+Description=Make a file inside archiso /tmp
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/touch /tmp/inside-archiso
+
+[Install]
+WantedBy=multi-user.target
